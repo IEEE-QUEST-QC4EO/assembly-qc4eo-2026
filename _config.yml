@@ -1,0 +1,56 @@
+title: "[ACRONYM] — Assembly on Quantum Computing for Earth Observation"
+description: "A workshop on quantum computing and quantum machine learning for Earth Observation, organized by the IEEE GRSS QUEST Working Group."
+url: ""
+baseurl: ""
+
+# ---- Event details (edit here, they propagate through the site) ----
+event:
+  full_title: "Assembly on Quantum Computing for Earth Observation"
+  acronym: "[ACRONYM]"
+  dates_display: "October 25–27, 2026"
+  venue_name: "Sant'Agostino Complex, University of Sannio"
+  venue_city: "Benevento, Italy"
+  venue_note: "1-minute walk from Trajan's Arch"
+  registration_url: "[GOOGLE_FORM_LINK]"
+  contact_email: "[CONTACT_EMAIL]"
+
+organizers:
+  - name: "Alessandro Sebastianelli"
+    affiliation: "[AFFILIATION]"
+    email: "[EMAIL]"
+    photo: "/assets/img/speakers/placeholder.jpg"
+  - name: "Francesco Mauro"
+    affiliation: "[AFFILIATION]"
+    email: "[EMAIL]"
+    photo: "/assets/img/speakers/placeholder.jpg"
+  - name: "Amer Delilbasic"
+    affiliation: "[AFFILIATION]"
+    email: "[EMAIL]"
+    photo: "/assets/img/speakers/placeholder.jpg"
+  - name: "Francesca De Falco"
+    affiliation: "[AFFILIATION]"
+    email: "[EMAIL]"
+    photo: "/assets/img/speakers/placeholder.jpg"
+
+topics:
+  - "Quantum Computing Fundamentals"
+  - "Quantum Machine Learning"
+  - "Quantum Algorithms for Earth Observation"
+  - "International Initiatives in Quantum Technologies"
+  - "Future Directions in Quantum EO"
+
+speakers:
+  - name: "[SPEAKER_NAME]"
+    affiliation: "[AFFILIATION]"
+    talk_title: "[TALK_TITLE]"
+    photo: "/assets/img/speakers/placeholder.jpg"
+    bio: "[SHORT_BIO]"
+
+sponsors:
+  - name: "[SPONSOR_NAME]"
+    logo: "/assets/img/logos/placeholder.png"
+    url: "#"
+
+markdown: kramdown
+plugins:
+  - jekyll-feed

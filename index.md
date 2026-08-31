@@ -1,0 +1,147 @@
+---
+layout: default
+---
+
+<section class="hero" id="top">
+  <svg class="hero-orbits" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg">
+    <ellipse cx="320" cy="320" rx="280" ry="120" fill="none" stroke="#7C5CFC" stroke-opacity="0.35" stroke-width="1" transform="rotate(20 320 320)"/>
+    <ellipse cx="320" cy="320" rx="280" ry="120" fill="none" stroke="#00D9C0" stroke-opacity="0.3" stroke-width="1" transform="rotate(-25 320 320)"/>
+    <ellipse cx="320" cy="320" rx="200" ry="200" fill="none" stroke="#7C5CFC" stroke-opacity="0.2" stroke-width="1"/>
+    <circle cx="320" cy="320" r="5" fill="#00D9C0"/>
+    <circle cx="580" cy="260" r="4" fill="#7C5CFC"/>
+    <circle cx="90" cy="380" r="3" fill="#7C5CFC"/>
+    <circle cx="420" cy="500" r="3" fill="#00D9C0"/>
+    <circle cx="200" cy="140" r="3" fill="#00D9C0"/>
+  </svg>
+  <div class="hero-inner">
+    <p class="hero-eyebrow">IEEE GRSS · QUEST Working Group</p>
+    <h1>{{ site.event.full_title }}</h1>
+    <div class="hero-meta">
+      <div><strong>Dates</strong><span>{{ site.event.dates_display }}</span></div>
+      <div><strong>Venue</strong><span>{{ site.event.venue_name }}, {{ site.event.venue_city }}</span></div>
+      <div><strong>Format</strong><span>Invited talks · Poster session · Social dinner</span></div>
+    </div>
+    <div class="hero-actions">
+      <a href="{{ site.event.registration_url }}" class="btn-primary" target="_blank" rel="noopener">Register now</a>
+      <a href="#agenda" class="btn-secondary">View agenda</a>
+    </div>
+  </div>
+</section>
+
+<section id="about">
+  <div class="section-inner">
+    <p class="section-label">About</p>
+    <div class="prose">
+      <p>Writing on behalf of the IEEE Geoscience and Remote Sensing Society (GRSS) Working Group on <a href="https://www.grss-ieee.org/technical-committees/quantum-earth-science-and-technology-quest/" target="_blank" rel="noopener">Quantum Earth Science and Technology (QUEST)</a>, we are organizing a workshop in Benevento, Italy, focused on quantum computing and quantum machine learning for Earth Observation.</p>
+      <p>The goal is to introduce students and early-career researchers to this rapidly growing field, encourage their involvement in research activities, and provide an overview of the main international organizations and initiatives working in quantum technologies — with particular attention to future directions.</p>
+      <p>The program includes invited talks of approximately one hour, a poster session, and a social dinner, aimed at fostering discussion and exchange among invited speakers, students, and early-career researchers.</p>
+    </div>
+  </div>
+</section>
+
+<section id="topics">
+  <div class="section-inner">
+    <p class="section-label">Covered Topics</p>
+    <h2 class="section-title">What we'll cover</h2>
+    <ul class="topics-list">
+      {% for t in site.topics %}
+        <li>{{ t }}</li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section id="agenda">
+  <div class="section-inner">
+    <p class="section-label">Agenda</p>
+    <h2 class="section-title">Program</h2>
+
+    <div class="agenda-day">
+      <p class="agenda-day-title">Sunday, October 25 — Welcome</p>
+      <div class="agenda-row">
+        <div class="agenda-time">Afternoon</div>
+        <div>
+          <p class="agenda-item-title">Welcome reception & registration</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="agenda-day">
+      <p class="agenda-day-title">Monday, October 26 — Scientific Program</p>
+      <div class="agenda-placeholder">Full schedule to be announced</div>
+    </div>
+
+    <div class="agenda-day">
+      <p class="agenda-day-title">Tuesday, October 27 — Scientific Program</p>
+      <div class="agenda-placeholder">Full schedule to be announced</div>
+    </div>
+
+    <div class="callout">
+      <h3>Poster session for students</h3>
+      <p>Details on the award/prize for the best student poster — to be announced.</p>
+    </div>
+  </div>
+</section>
+
+<section id="speakers">
+  <div class="section-inner">
+    <p class="section-label">Speakers</p>
+    <h2 class="section-title">Invited speakers</h2>
+    <div class="people-grid">
+      {% for s in site.speakers %}
+        <div class="person-card">
+          <img src="{{ s.photo | relative_url }}" alt="{{ s.name }}" class="person-photo">
+          <p class="person-name">{{ s.name }}</p>
+          <p class="person-affiliation">{{ s.affiliation }}</p>
+          {% if s.talk_title %}<p class="person-bio"><em>{{ s.talk_title }}</em></p>{% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="committee">
+  <div class="section-inner">
+    <p class="section-label">Organizing Committee</p>
+    <h2 class="section-title">Committee</h2>
+    <div class="people-grid">
+      {% for o in site.organizers %}
+        <div class="person-card">
+          <img src="{{ o.photo | relative_url }}" alt="{{ o.name }}" class="person-photo">
+          <p class="person-name">{{ o.name }}</p>
+          <p class="person-affiliation">{{ o.affiliation }}</p>
+          <p class="person-email"><a href="mailto:{{ o.email }}">{{ o.email }}</a></p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="venue">
+  <div class="section-inner">
+    <p class="section-label">Venue</p>
+    <h2 class="section-title">{{ site.event.venue_name }}</h2>
+    <div class="venue-grid">
+      <div class="prose">
+        <p>{{ site.event.venue_city }} — {{ site.event.venue_note }}.</p>
+        <p>Accommodation list: <a href="#">[ACCOMMODATION_PDF_LINK]</a></p>
+        <p>For any information, write to <a href="mailto:{{ site.event.contact_email }}">{{ site.event.contact_email }}</a></p>
+      </div>
+      <div class="venue-map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.0978885099253!2d14.780158899999998!3d41.132388999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133a3a6dc20bbf77%3A0x8bf13fe91caf5c13!2sAuditorium%20Sant%27Agostino!5e0!3m2!1sen!2sen" loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="gallery">
+  <div class="section-inner">
+    <p class="section-label">Gallery</p>
+    <h2 class="section-title">Photos</h2>
+    <div class="gallery-grid">
+      <img src="/assets/img/gallery/placeholder1.jpg" alt="">
+      <img src="/assets/img/gallery/placeholder2.jpg" alt="">
+      <img src="/assets/img/gallery/placeholder3.jpg" alt="">
+    </div>
+  </div>
+</section>
