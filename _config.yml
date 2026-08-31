@@ -1,7 +1,7 @@
 title: "QC4EO Symposium"
 description: "A workshop on quantum computing and quantum machine learning for Earth Observation, organized by the IEEE GRSS QUEST Working Group."
 url: "https://ieee-quest-qc4eo.github.io"
-baseurl: "/assembly-qc4eo-2026"
+baseurl: "/qc4eo-symposium-2026"
 
 # ---- Event details (edit here, they propagate through the site) ----
 event:
