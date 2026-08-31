@@ -32,9 +32,9 @@ layout: default
   <div class="section-inner">
     <p class="section-label">About</p>
     <div class="prose">
-      <p>Writing on behalf of the IEEE Geoscience and Remote Sensing Society (GRSS) Working Group on <a href="https://www.grss-ieee.org/technical-committees/quantum-earth-science-and-technology-quest/" target="_blank" rel="noopener">Quantum Earth Science and Technology (QUEST)</a>, we are organizing a workshop in Benevento, Italy, focused on quantum computing and quantum machine learning for Earth Observation.</p>
-      <p>The goal is to introduce students and early-career researchers to this rapidly growing field, encourage their involvement in research activities, and provide an overview of the main international organizations and initiatives working in quantum technologies — with particular attention to future directions.</p>
-      <p>The program includes invited talks of approximately one hour, a poster session, and a social dinner, aimed at fostering discussion and exchange among invited speakers, students, and early-career researchers.</p>
+      <p>{{ site.event.acronym }} is organized by the <strong>QC4EO Working Group</strong>, part of the IEEE Geoscience and Remote Sensing Society (GRSS) <a href="https://www.grss-ieee.org/technical-committees/quantum-earth-science-and-technology-quest/" target="_blank" rel="noopener">QUEST</a> technical commiette.</p>
+      <p>The workshop focuses on quantum computing and quantum machine learning for Earth Observation. Its goal is to introduce students and early-career researchers to this rapidly growing field, encourage their involvement in research activities, and give an overview of the main international organizations and initiatives in quantum technologies — with a particular focus on future directions.</p>
+      <p>The program includes invited talks of approximately one hour, a poster session, and a social dinner, designed to foster discussion and exchange among invited speakers, students, and early-career researchers.</p>
     </div>
   </div>
 </section>
