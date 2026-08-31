@@ -139,9 +139,9 @@ layout: default
     <p class="section-label">Gallery</p>
     <h2 class="section-title">Photos</h2>
     <div class="gallery-grid">
-      <img src="/assets/img/gallery/placeholder1.jpg" alt="">
-      <img src="/assets/img/gallery/placeholder2.jpg" alt="">
-      <img src="/assets/img/gallery/placeholder3.jpg" alt="">
+      <img src="{{ '/assets/img/gallery/placeholder1.jpg' | relative_url }}" alt="">
+      <img src="{{ '/assets/img/gallery/placeholder2.jpg' | relative_url }}" alt="">
+      <img src="{{ '/assets/img/gallery/placeholder3.jpg' | relative_url }}" alt="">
     </div>
   </div>
 </section>
