@@ -32,7 +32,7 @@ layout: default
   <div class="section-inner">
     <p class="section-label">About</p>
     <div class="prose">
-      <p>{{ site.event.acronym }} is organized by the <strong>QC4EO Working Group</strong>, part of the IEEE Geoscience and Remote Sensing Society (GRSS) <a href="https://www.grss-ieee.org/technical-committees/quantum-earth-science-and-technology-quest/" target="_blank" rel="noopener">QUEST</a> technical commiette.</p>
+      <p>{{ site.event.acronym }} is organized by the <strong>QC4EO Working Group</strong>, part of the IEEE Geoscience and Remote Sensing Society (GRSS) <a href="https://www.grss-ieee.org/technical-committees/quantum-earth-science-and-technology-quest/" target="_blank" rel="noopener">QUEST</a> technical committee.</p>
       <p>The workshop focuses on quantum computing and quantum machine learning for Earth Observation. Its goal is to introduce students and early-career researchers to this rapidly growing field, encourage their involvement in research activities, and give an overview of the main international organizations and initiatives in quantum technologies — with a particular focus on future directions.</p>
       <p>The program includes invited talks of approximately one hour, a poster session, and a social dinner, designed to foster discussion and exchange among invited speakers, students, and early-career researchers.</p>
     </div>
@@ -56,91 +56,31 @@ layout: default
     <p class="section-label">Agenda</p>
     <h2 class="section-title">Program</h2>
 
-    <div class="agenda-day">
-      <p class="agenda-day-title">Sunday, October 25 — Welcome</p>
-      <div class="agenda-row">
-        <div class="agenda-time">Afternoon</div>
-        <div>
-          <p class="agenda-item-title">Welcome reception & registration</p>
-        </div>
-      </div>
-    </div>
+    <table class="agenda-table">
+      <caption>Sunday, October 25 — Welcome</caption>
+      <thead><tr><th>Time</th><th>Session</th></tr></thead>
+      <tbody>
+        <tr><td class="time">Afternoon</td><td>Welcome reception &amp; registration</td></tr>
+      </tbody>
+    </table>
 
-    <div class="agenda-day">
-      <p class="agenda-day-title">Monday, October 26 — Scientific Program</p>
-      <div class="agenda-row">
-        <div class="agenda-time">9:00–9:30</div>
-        <div><p class="agenda-item-title">Introduction</p></div>
-      </div>
-      <div class="agenda-row">
-        <div class="agenda-time">9:30–10:30</div>
-        <div><p class="agenda-item-title">Keynote 1</p></div>
-      </div>
-      <div class="agenda-row">
-        <div class="agenda-time">10:30–11:00</div>
-        <div><p class="agenda-item-title">Coffee Break</p></div>
-      </div>
-      <div class="agenda-row">
-        <div class="agenda-time">11:00–12:00</div>
-        <div><p class="agenda-item-title">Keynote 2</p></div>
-      </div>
-      <div class="agenda-row">
-        <div class="agenda-time">12:00–13:00</div>
-        <div><p class="agenda-item-title">Keynote 3</p></div>
-      </div>
-      <div class="agenda-row">
-        <div class="agenda-time">13:00–14:30</div>
-        <div><p class="agenda-item-title">Lunch</p></div>
-      </div>
-      <div class="agenda-row">
-        <div class="agenda-time">14:30–17:00</div>
-        <div><p class="agenda-item-title">Poster Session</p><p class="agenda-item-speaker">Coffee break at 15:30</p></div>
-      </div>
-      <div class="agenda-row">
-        <div class="agenda-time">17:30–19:30</div>
-        <div><p class="agenda-item-title">Walking together in Benevento</p></div>
-      </div>
-    </div>
-
-    <div class="agenda-day">
-      <p class="agenda-day-title">Tuesday, October 27 — Scientific Program</p>
-      <div class="agenda-row">
-        <div class="agenda-time">9:30–10:30</div>
-        <div><p class="agenda-item-title">Keynote 4</p></div>
-      </div>
-      <div class="agenda-row">
-        <div class="agenda-time">10:30–11:00</div>
-        <div><p class="agenda-item-title">Coffee Break</p></div>
-      </div>
-      <div class="agenda-row">
-        <div class="agenda-time">11:00–12:00</div>
-        <div><p class="agenda-item-title">Keynote 5</p></div>
-      </div>
-      <div class="agenda-row">
-        <div class="agenda-time">12:00–13:00</div>
-        <div><p class="agenda-item-title">Keynote 6</p></div>
-      </div>
-      <div class="agenda-row">
-        <div class="agenda-time">13:00–14:00</div>
-        <div><p class="agenda-item-title">Lunch</p></div>
-      </div>
-      <div class="agenda-row">
-        <div class="agenda-time">14:00–15:00</div>
-        <div><p class="agenda-item-title">Keynote 7</p></div>
-      </div>
-      <div class="agenda-row">
-        <div class="agenda-time">15:00–16:00</div>
-        <div><p class="agenda-item-title">Panel</p></div>
-      </div>
-      <div class="agenda-row">
-        <div class="agenda-time">16:00–16:30</div>
-        <div><p class="agenda-item-title">Closing Remarks</p></div>
-      </div>
-      <div class="agenda-row">
-        <div class="agenda-time">20:00</div>
-        <div><p class="agenda-item-title">Gala Dinner</p></div>
-      </div>
-    </div>
+    <table class="agenda-table">
+      <caption>Scientific Program</caption>
+      <thead>
+        <tr><th>26 October 2026</th><th></th><th>27 October 2026</th><th></th></tr>
+      </thead>
+      <tbody>
+        <tr><td class="time">9:00–9:30</td><td>Introduction</td><td class="time"></td><td></td></tr>
+        <tr class="highlight"><td class="time">9:30–10:30</td><td>Keynote 1</td><td class="time">9:30–10:30</td><td>Keynote 4</td></tr>
+        <tr class="break"><td class="time">10:30–11:00</td><td>Coffee Break</td><td class="time">10:30–11:00</td><td>Coffee Break</td></tr>
+        <tr><td class="time">11:00–12:00</td><td>Keynote 2</td><td class="time">11:00–12:00</td><td>Keynote 5</td></tr>
+        <tr class="highlight"><td class="time">12:00–13:00</td><td>Keynote 3</td><td class="time">12:00–13:00</td><td>Keynote 6</td></tr>
+        <tr class="break"><td class="time">13:00–14:30</td><td>Lunch</td><td class="time">13:00–14:00</td><td>Lunch</td></tr>
+        <tr><td class="time">14:30–17:00</td><td>Poster Session (+ coffee break at 15:30)</td><td class="time">14:00–15:00</td><td>Keynote 7</td></tr>
+        <tr><td class="time">17:30–19:30</td><td>Walking together in Benevento</td><td class="time">15:00–16:00</td><td>Panel</td></tr>
+        <tr><td class="time">20:00</td><td><strong>Gala Dinner</strong></td><td class="time">16:00–16:30</td><td>Closing Remarks</td></tr>
+      </tbody>
+    </table>
 
     <div class="callout">
       <h3>Poster session for students</h3>

@@ -113,19 +113,16 @@ section { padding: 5rem 1.5rem; }
 .topics-list li { background: var(--surface); padding: 1.5rem; font-size: 1.02rem; }
 
 /* ---- Agenda ---- */
-.agenda-day { margin-bottom: 3rem; }
-.agenda-day-title { font-family: var(--font-display); font-size: 1.3rem; margin-bottom: 1.25rem; color: var(--text); }
-.agenda-row {
-  display: grid; grid-template-columns: 140px 1fr;
-  gap: 1.5rem; padding: 1rem 0; border-top: 1px solid var(--border);
-}
-.agenda-row:last-child { border-bottom: 1px solid var(--border); }
-.agenda-time { color: var(--teal); font-variant-numeric: tabular-nums; font-size: 0.95rem; }
-.agenda-item-title { color: var(--text); margin-bottom: 0.2rem; }
-.agenda-item-speaker { color: var(--text-dim); font-size: 0.92rem; }
-.agenda-placeholder {
-  border: 1px dashed var(--border); border-radius: 8px; padding: 2rem;
-  color: var(--text-dim); text-align: center; font-style: italic;
+.agenda-table { width: 100%; border-collapse: collapse; margin-bottom: 2rem; font-size: 0.95rem; }
+.agenda-table caption { text-align: left; font-family: var(--font-display); font-size: 1.3rem; color: var(--text); margin-bottom: 1rem; caption-side: top; }
+.agenda-table th, .agenda-table td { border: 1px solid var(--border); padding: 0.7rem 1rem; text-align: left; }
+.agenda-table th { background: var(--surface-2); color: var(--text-dim); font-weight: 500; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.03em; }
+.agenda-table td.time { color: var(--teal); font-variant-numeric: tabular-nums; white-space: nowrap; width: 110px; }
+.agenda-table tr.highlight td { background: var(--surface); }
+.agenda-table tr.break td { color: var(--text-dim); font-style: italic; }
+@media (max-width: 700px) {
+  .agenda-table { font-size: 0.85rem; }
+  .agenda-table th, .agenda-table td { padding: 0.5rem 0.6rem; }
 }
 
 /* ---- Speakers / Committee grids ---- */
