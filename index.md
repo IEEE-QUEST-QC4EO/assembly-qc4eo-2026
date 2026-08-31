@@ -68,12 +68,78 @@ layout: default
 
     <div class="agenda-day">
       <p class="agenda-day-title">Monday, October 26 — Scientific Program</p>
-      <div class="agenda-placeholder">Full schedule to be announced</div>
+      <div class="agenda-row">
+        <div class="agenda-time">9:00–9:30</div>
+        <div><p class="agenda-item-title">Introduction</p></div>
+      </div>
+      <div class="agenda-row">
+        <div class="agenda-time">9:30–10:30</div>
+        <div><p class="agenda-item-title">Keynote 1</p></div>
+      </div>
+      <div class="agenda-row">
+        <div class="agenda-time">10:30–11:00</div>
+        <div><p class="agenda-item-title">Coffee Break</p></div>
+      </div>
+      <div class="agenda-row">
+        <div class="agenda-time">11:00–12:00</div>
+        <div><p class="agenda-item-title">Keynote 2</p></div>
+      </div>
+      <div class="agenda-row">
+        <div class="agenda-time">12:00–13:00</div>
+        <div><p class="agenda-item-title">Keynote 3</p></div>
+      </div>
+      <div class="agenda-row">
+        <div class="agenda-time">13:00–14:30</div>
+        <div><p class="agenda-item-title">Lunch</p></div>
+      </div>
+      <div class="agenda-row">
+        <div class="agenda-time">14:30–17:00</div>
+        <div><p class="agenda-item-title">Poster Session</p><p class="agenda-item-speaker">Coffee break at 15:30</p></div>
+      </div>
+      <div class="agenda-row">
+        <div class="agenda-time">17:30–19:30</div>
+        <div><p class="agenda-item-title">Walking together in Benevento</p></div>
+      </div>
     </div>
 
     <div class="agenda-day">
       <p class="agenda-day-title">Tuesday, October 27 — Scientific Program</p>
-      <div class="agenda-placeholder">Full schedule to be announced</div>
+      <div class="agenda-row">
+        <div class="agenda-time">9:30–10:30</div>
+        <div><p class="agenda-item-title">Keynote 4</p></div>
+      </div>
+      <div class="agenda-row">
+        <div class="agenda-time">10:30–11:00</div>
+        <div><p class="agenda-item-title">Coffee Break</p></div>
+      </div>
+      <div class="agenda-row">
+        <div class="agenda-time">11:00–12:00</div>
+        <div><p class="agenda-item-title">Keynote 5</p></div>
+      </div>
+      <div class="agenda-row">
+        <div class="agenda-time">12:00–13:00</div>
+        <div><p class="agenda-item-title">Keynote 6</p></div>
+      </div>
+      <div class="agenda-row">
+        <div class="agenda-time">13:00–14:00</div>
+        <div><p class="agenda-item-title">Lunch</p></div>
+      </div>
+      <div class="agenda-row">
+        <div class="agenda-time">14:00–15:00</div>
+        <div><p class="agenda-item-title">Keynote 7</p></div>
+      </div>
+      <div class="agenda-row">
+        <div class="agenda-time">15:00–16:00</div>
+        <div><p class="agenda-item-title">Panel</p></div>
+      </div>
+      <div class="agenda-row">
+        <div class="agenda-time">16:00–16:30</div>
+        <div><p class="agenda-item-title">Closing Remarks</p></div>
+      </div>
+      <div class="agenda-row">
+        <div class="agenda-time">20:00</div>
+        <div><p class="agenda-item-title">Gala Dinner</p></div>
+      </div>
     </div>
 
     <div class="callout">
