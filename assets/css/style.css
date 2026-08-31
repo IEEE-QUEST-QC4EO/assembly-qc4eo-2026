@@ -38,7 +38,7 @@ h1, h2, h3 { font-family: var(--font-display); font-weight: 500; margin: 0 0 0.5
 section { padding: 5rem 1.5rem; }
 .section-inner { max-width: 1000px; margin: 0 auto; }
 .prose { max-width: none; }
-.prose p { max-width: var(--content-width); }
+.prose p { max-width: none; }
 
 /* ---- Nav ---- */
 .nav {
