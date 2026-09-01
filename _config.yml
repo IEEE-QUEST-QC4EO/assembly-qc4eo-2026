@@ -70,9 +70,9 @@ sponsors:
   - name: "IEEE GRSS QUEST"
     logo: "/assets/img/logos/quest-logo.webp"
     url: "https://www.grss-ieee.org/technical-committees/quantum-earth-science-and-technology-quest/"
-  - name: "University of Sannio"
-    logo: "/assets/img/logos/unisannio.png"
-    url: "https://www.unisannio.it/it"
+  #- name: "University of Sannio"
+  #  logo: "/assets/img/logos/unisannio.png"
+  #  url: "https://www.unisannio.it/it"
 
 markdown: kramdown
 plugins:
