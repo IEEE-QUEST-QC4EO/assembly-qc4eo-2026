@@ -36,10 +36,10 @@ organizers:
     role: "Organizing & Scientific committee"
     photo: "/assets/img/speakers/placeholder.jpg"
   - name: "Silvia Liberata Ullo"
-    affiliation: "[AFFILIATION]"
-    email: "[EMAIL]"
+    affiliation: "University of Sannio"
+    email: "ullo@unisannio.it"
     role: "Local Organizing Committee"
-    photo: "/assets/img/speakers/placeholder.jpg"
+    photo: "/assets/img/speakers/sullo.jpg"
 
 topics:
   - "Quantum Computing Fundamentals"
