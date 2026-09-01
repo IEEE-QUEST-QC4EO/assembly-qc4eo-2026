@@ -116,6 +116,7 @@ layout: default
           <img src="{{ o.photo | relative_url }}" alt="{{ o.name }}" class="person-photo">
           <p class="person-name">{{ o.name }}</p>
           <p class="person-affiliation">{{ o.affiliation }}</p>
+          <p class="person-affiliation">{{ o.role }}</p>
           <p class="person-email"><a href="mailto:{{ o.email }}">{{ o.email }}</a></p>
         </div>
       {% endfor %}
