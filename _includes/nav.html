@@ -12,3 +12,16 @@
     <a href="{{ site.event.registration_url }}" class="nav-cta" target="_blank" rel="noopener">Register</a>
   </div>
 </header>
+
+{% if site.sponsors.size > 0 %}
+<div class="logo-strip">
+  <div class="logo-track">
+    {% for s in site.sponsors %}
+      <img src="{{ s.logo | relative_url }}" alt="{{ s.name }}" class="logo-strip-img">
+    {% endfor %}
+    {% for s in site.sponsors %}
+      <img src="{{ s.logo | relative_url }}" alt="" class="logo-strip-img" aria-hidden="true">
+    {% endfor %}
+  </div>
+</div>
+{% endif %}

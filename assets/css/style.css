@@ -67,6 +67,33 @@ section { padding: 5rem 1.5rem; }
   .nav-links { display: none; }
 }
 
+.logo-strip {
+  overflow: hidden;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+  padding: 1.25rem 0;
+  mask-image: linear-gradient(to right, transparent, #000 8%, #000 92%, transparent);
+}
+.logo-track {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  width: max-content;
+  animation: logo-scroll 30s linear infinite;
+}
+.logo-strip-img {
+  height: 32px;
+  opacity: 0.6;
+  filter: grayscale(1);
+}
+@keyframes logo-scroll {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .logo-track { animation: none; }
+}
+
 /* ---- Hero ---- */
 .hero {
   position: relative;
