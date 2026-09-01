@@ -61,9 +61,9 @@ speakers:
     bio: "[SHORT_BIO]"
 
 sponsors:
-  - name: "[SPONSOR_NAME]"
-    logo: "/assets/img/logos/placeholder.png"
-    url: "#"
+  - name: "University of Sannio"
+    logo: "/assets/img/logos/unisannio.png"
+    url: "https://www.unisannio.it/it"
 
 markdown: kramdown
 plugins:
