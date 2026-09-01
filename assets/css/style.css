@@ -93,8 +93,9 @@ section { padding: 5rem 1.5rem; }
 @media (prefers-reduced-motion: reduce) {
   .logo-track { animation: none; }
 }
-.logo-item { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; }
-.logo-name { font-size: 0.75rem; color: var(--text-dim); white-space: nowrap; }
+.logo-item { display: flex; flex-direction: column; align-items: center; gap: 0.5rem; text-decoration: none; }
+.logo-name { font-size: 0.75rem; color: var(--text-dim); white-space: nowrap; color: var(--teal); }
+.logo-item:hover
 
 /* ---- Hero ---- */
 .hero {
