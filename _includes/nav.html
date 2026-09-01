@@ -17,10 +17,16 @@
 <div class="logo-strip">
   <div class="logo-track">
     {% for s in site.sponsors %}
-      <img src="{{ s.logo | relative_url }}" alt="{{ s.name }}" class="logo-strip-img">
+      <div class="logo-item">
+        <img src="{{ s.logo | relative_url }}" alt="{{ s.name }}" class="logo-strip-img">
+        <span class="logo-name">{{ s.name }}</span>
+      </div>
     {% endfor %}
     {% for s in site.sponsors %}
-      <img src="{{ s.logo | relative_url }}" alt="" class="logo-strip-img" aria-hidden="true">
+      <div class="logo-item" aria-hidden="true">
+        <img src="{{ s.logo | relative_url }}" alt="" class="logo-strip-img">
+        <span class="logo-name">{{ s.name }}</span>
+      </div>
     {% endfor %}
   </div>
 </div>
