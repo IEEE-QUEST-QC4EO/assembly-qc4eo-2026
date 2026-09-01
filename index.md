@@ -14,7 +14,7 @@ layout: default
     <circle cx="200" cy="140" r="3" fill="#00D9C0"/>
   </svg>
   <div class="hero-inner">
-    <p class="hero-eyebrow">IEEE GRSS · QUEST Working Group</p>
+    <p class="hero-eyebrow">IEEE GRSS · QUEST QC4EO Working Group</p>
     <h1>{{ site.event.full_title }}</h1>
     <div class="hero-meta">
       <div><strong>Dates</strong><span>{{ site.event.dates_display }}</span></div>
