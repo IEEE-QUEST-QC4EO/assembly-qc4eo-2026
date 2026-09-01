@@ -5,7 +5,7 @@ baseurl: "/qc4eo-symposium-2026"
 
 # ---- Event details (edit here, they propagate through the site) ----
 event:
-  full_title: "QC4EO Symposium 2026"
+  full_title: "Quantum Computing for Earth Observation Symposium 2026"
   acronym: "QC4EO Symposium"
   dates_display: "October 25–27, 2026"
   venue_name: "Sant'Agostino Complex, University of Sannio"
