@@ -3,16 +3,6 @@ layout: default
 ---
 
 <section class="hero" id="top">
-  <svg class="hero-orbits" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg">
-    <ellipse cx="320" cy="320" rx="280" ry="120" fill="none" stroke="#7C5CFC" stroke-opacity="0.35" stroke-width="1" transform="rotate(20 320 320)"/>
-    <ellipse cx="320" cy="320" rx="280" ry="120" fill="none" stroke="#00D9C0" stroke-opacity="0.3" stroke-width="1" transform="rotate(-25 320 320)"/>
-    <ellipse cx="320" cy="320" rx="200" ry="200" fill="none" stroke="#7C5CFC" stroke-opacity="0.2" stroke-width="1"/>
-    <circle cx="320" cy="320" r="5" fill="#00D9C0"/>
-    <circle cx="580" cy="260" r="4" fill="#7C5CFC"/>
-    <circle cx="90" cy="380" r="3" fill="#7C5CFC"/>
-    <circle cx="420" cy="500" r="3" fill="#00D9C0"/>
-    <circle cx="200" cy="140" r="3" fill="#00D9C0"/>
-  </svg>
   <div class="hero-inner">
     <p class="hero-eyebrow">IEEE GRSS · QUEST QC4EO Working Group</p>
     <h1>{{ site.event.full_title }}</h1>

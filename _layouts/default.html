@@ -12,17 +12,27 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
+  <svg class="bg-orbits" viewBox="0 0 640 640" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <ellipse cx="320" cy="320" rx="280" ry="120" fill="none" stroke="#7C5CFC" stroke-opacity="0.25" stroke-width="1" transform="rotate(20 320 320)"/>
+    <ellipse cx="320" cy="320" rx="280" ry="120" fill="none" stroke="#00D9C0" stroke-opacity="0.2" stroke-width="1" transform="rotate(-25 320 320)"/>
+    <ellipse cx="320" cy="320" rx="200" ry="200" fill="none" stroke="#7C5CFC" stroke-opacity="0.15" stroke-width="1"/>
+    <circle cx="320" cy="320" r="5" fill="#00D9C0"/>
+    <circle cx="580" cy="260" r="4" fill="#7C5CFC"/>
+    <circle cx="90" cy="380" r="3" fill="#7C5CFC"/>
+    <circle cx="420" cy="500" r="3" fill="#00D9C0"/>
+    <circle cx="200" cy="140" r="3" fill="#00D9C0"/>
+  </svg>
   {% include nav.html %}
   <main>
     {{ content }}
   </main>
   {% include footer.html %}
   <script>
-    const orbits = document.querySelector('.hero-orbits');
+    const orbits = document.querySelector('.bg-orbits');
     if (orbits && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
       window.addEventListener('scroll', () => {
         const y = window.scrollY;
-        orbits.style.transform = `translateY(-50%) rotate(${y * 0.05}deg) scale(${1 + y * 0.0003})`;
+        orbits.style.transform = `translateY(-50%) rotate(${y * 0.08}deg)`;
       }, { passive: true });
     }
   </script>
