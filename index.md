@@ -133,7 +133,7 @@ layout: default
       <div class="prose">
         <p>{{ site.event.venue_city }} — {{ site.event.venue_note }}.</p>
         <p>Accommodation list: <a href="#">[ACCOMMODATION_PDF_LINK]</a></p>
-        <p>For any information, write to <a href="mailto:{{ site.event.contact_email }}">{{ site.event.contact_email }}</a></p>
+        <p>For any information, write to the committe emails provided above.</p>
       </div>
       <div class="venue-map">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3005.0978885099253!2d14.780158899999998!3d41.132388999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133a3a6dc20bbf77%3A0x8bf13fe91caf5c13!2sAuditorium%20Sant%27Agostino!5e0!3m2!1sen!2sen" loading="lazy"></iframe>
