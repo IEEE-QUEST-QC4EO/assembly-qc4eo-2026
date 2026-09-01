@@ -61,6 +61,15 @@ speakers:
     bio: "[SHORT_BIO]"
 
 sponsors:
+  - name: "IEEE"
+    logo: "/assets/img/logos/ieee-logo.webp"
+    url: "https://www.ieee.org/"
+  - name: "IEEE GRSS"
+    logo: "/assets/img/logos/grss-logo.webp"
+    url: "https://www.grss-ieee.org/"
+  - name: "IEEE GRSS QUEST"
+    logo: "/assets/img/logos/quest-logo.webp"
+    url: "https://www.grss-ieee.org/technical-committees/quantum-earth-science-and-technology-quest/"
   - name: "University of Sannio"
     logo: "/assets/img/logos/unisannio.png"
     url: "https://www.unisannio.it/it"
