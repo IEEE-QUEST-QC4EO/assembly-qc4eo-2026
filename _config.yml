@@ -12,7 +12,7 @@ event:
   venue_city: "Benevento, Italy"
   venue_note: "1-minute walk from Trajan's Arch"
   registration_url: "https://docs.google.com/forms/d/e/1FAIpQLSdEH9ZMCmaeVeD26XfD9SsR5XzC5Nv0dtPmWGStmjJPHfl9gA/viewform?usp=publish-editor"
-  contact_email: "[CONTACT_EMAIL]"
+  contact_email: "grss-quest@ieee.org"
 
 organizers:
   - name: "Alessandro Sebastianelli"
