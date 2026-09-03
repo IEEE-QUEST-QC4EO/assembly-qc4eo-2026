@@ -68,7 +68,7 @@ layout: default
         <tr class="highlight"><td class="time">12:00–13:00</td><td>Keynote 3</td><td class="time">12:00–13:00</td><td>Keynote 6</td></tr>
         <tr class="break"><td class="time">13:00–14:30</td><td>Lunch</td><td class="time">13:00–14:00</td><td>Lunch</td></tr>
         <tr><td class="time">14:30–17:00</td><td>Poster Session (+ coffee break at 15:30)</td><td class="time">14:00–15:00</td><td>Keynote 7</td></tr>
-        <tr><td class="time">17:30–19:30</td><td>Walking together in Benevento</td><td class="time">15:00–16:00</td><td>Panel</td></tr>
+        <tr><td class="time">17:30–19:30</td><td>Walking together in Benevento</td><td class="time">15:00–16:00</td><td>Panel Discussion</td></tr>
         <tr><td class="time">20:00</td><td><strong>Gala Dinner</strong></td><td class="time">16:00–16:30</td><td>Closing Remarks</td></tr>
       </tbody>
     </table>
