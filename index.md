@@ -23,7 +23,8 @@ layout: default
     <p class="section-label">About</p>
     <div class="prose">
       <p>{{ site.event.acronym }} is organized by the <strong>QC4EO Working Group</strong>, part of the IEEE Geoscience and Remote Sensing Society (GRSS) <a href="https://www.grss-ieee.org/technical-committees/quantum-earth-science-and-technology-quest/" target="_blank" rel="noopener">QUEST</a> technical committee.</p>
-      <p>The workshop focuses on quantum computing and quantum machine learning for Earth Observation. Its goal is to introduce students and early-career researchers to this rapidly growing field, encourage their involvement in research activities, and give an overview of the main international organizations and initiatives in quantum technologies — with a particular focus on future directions.</p>
+      <p>The workshop focuses primarily on quantum computing and quantum machine learning for Earth Observation, but we equally welcome contributions on quantum technologies for Earth Observation more broadly, and on quantum technologies in general. We are particularly interested in work that explores how approaches developed in other domains can be transferred into the Earth Observation field.</p>
+      <p>The goal is to introduce students and early-career researchers to this rapidly growing field, encourage their involvement in research activities, and give an overview of the main international organizations and initiatives in quantum technologies — with a particular focus on future directions.</p>
       <p>The program includes invited talks of approximately one hour, a poster session, and a social dinner, designed to foster discussion and exchange among invited speakers, students, and early-career researchers.</p>
     </div>
   </div>
@@ -74,7 +75,7 @@ layout: default
 
     <div class="callout">
       <h3>Poster session for students</h3>
-      <p>Details on the award/prize for the best student poster — to be announced.</p>
+      <p>Details on the award/prize for the best student poster — to be announced. Posters exploring how quantum approaches from other domains can be transferred to Earth Observation are especially encouraged.</p>
     </div>
   </div>
 </section>
