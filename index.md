@@ -123,7 +123,7 @@ layout: default
     <div class="venue-grid">
       <div class="prose">
         <p>{{ site.event.venue_city }} — {{ site.event.venue_note }}.</p>
-        <p>Accommodation list: <a href="#">[ACCOMMODATION_PDF_LINK]</a></p>
+        <p>Accommodation list: <a href="https://docs.google.com/document/d/1WcJQVbvoFtrFm4w7vzPD7XdOw_VaHEuQz5n7vyuxCcs/edit?usp=sharing">Accomodation List</a></p>
         <p>For any information, write to the committe emails provided above.</p>
       </div>
       <div class="venue-map">
