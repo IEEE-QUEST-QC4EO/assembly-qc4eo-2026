@@ -60,15 +60,11 @@ topics:
 speakers:
   - name: "Prof. Paolo Gamba"
     affiliation: "University of Pavia"
-    talk_title: "[TALK_TITLE]"
     photo: "/assets/img/speakers/pgamba.png"
-    bio: "[SHORT_BIO]"
     web: "https://tlclab.unipv.it/index.php/people/the-team?view=article&id=71&catid=23"
   - name: "Prof. Mihai Datcu"
     affiliation: "DLR"
-    talk_title: "[TALK_TITLE]"
     photo: "/assets/img/speakers/mdatcu.jpeg"
-    bio: "[SHORT_BIO]"
     web: "https://philab.esa.int/team/mihai-datcu/"
 
 sponsors:
