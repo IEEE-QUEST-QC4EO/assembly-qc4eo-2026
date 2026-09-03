@@ -54,10 +54,15 @@ topics:
   - "Future Directions in Quantum EO"
 
 speakers:
-  - name: "[SPEAKER_NAME]"
-    affiliation: "[AFFILIATION]"
+  - name: "Prof. Paolo Gamba"
+    affiliation: "University of Pavia"
     talk_title: "[TALK_TITLE]"
-    photo: "/assets/img/speakers/placeholder.jpg"
+    photo: "/assets/img/speakers/pgamba.png"
+    bio: "[SHORT_BIO]"
+  - name: "Prof. Mihai Datcu"
+    affiliation: "DLR"
+    talk_title: "[TALK_TITLE]"
+    photo: "/assets/img/speakers/mdatcu.jpg"
     bio: "[SHORT_BIO]"
 
 sponsors:
