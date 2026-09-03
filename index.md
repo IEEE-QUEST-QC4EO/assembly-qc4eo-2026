@@ -90,6 +90,7 @@ layout: default
           <img src="{{ s.photo | relative_url }}" alt="{{ s.name }}" class="person-photo">
           <p class="person-name">{{ s.name }}</p>
           <p class="person-affiliation">{{ s.affiliation }}</p>
+          <p class="person-web"><a href="{{ s.web }}" target="_blank" rel="noopener">About</a></p>
           {% if s.talk_title %}<p class="person-bio"><em>{{ s.talk_title }}</em></p>{% endif %}
         </div>
       {% endfor %}
